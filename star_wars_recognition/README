@@ -1,0 +1,15 @@
+Dimov Ilya Nikolaevich 322
+This task was compiled on Ubuntu 16.04.3 LTS (GNU/Linux 4.10.0-37-generic x86_64)
+Bonus tasks:
+Local binary patterns (see LBP function in src/task2.cpp)
+Color features (see CF function in src/task2.cpp)
+
+model.txt is trained on star wars with all the bonus features
+
+If you want to use it to retrain or predict and see the outcome, please do the following steps:
+1) make
+2) cd build/bin
+3) ./task2 -d ../../data/multiclass/train_labels.txt -m ../../model.txt --train #as you see data should be in template directory
+4) ./task2 -d ../../data/multiclass/test_labels.txt -m ../../model.txt -l predictions.txt --predict #for correct work of compare.py predictions should be in build/bin
+5) cd ../.. #so you ar in template folder
+6) ./compare.py data/multiclass/test_labels.txt build/bin/predictions.txt
