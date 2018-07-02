@@ -1,0 +1,16 @@
+Dimov Ilya 322 CMC MSU 2017
+This task was made to be built on Ubuntu 16.04.3 LTS (GNU/Linux 4.10.0-35-generic x86_64)
+
+To create the files please use the "make" command
+To free space and delete all made files use "make clean"
+
+I included several bonus options with corresponding score:
+pyramid (bilineal) 2
+median (r^2) 1
+subpixel accuracy 1
+gray-world 1
+unsharp 1
+autocontrast 1
+mirror 2
+----
+total 9 bonus points
